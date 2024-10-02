@@ -1,0 +1,15 @@
+.home {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 14px;
+}
+
+body{
+    background-color: black;
+}
+img {
+    display: block;
+    margin: auto;
+}
