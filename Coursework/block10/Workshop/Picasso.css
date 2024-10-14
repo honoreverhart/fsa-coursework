@@ -1,0 +1,95 @@
+
+
+h1{
+    font-family: cursive;
+}
+
+
+.Art{
+    display: flex;
+    background-color: rgb(138, 204, 206);
+
+}
+
+.Art > div{
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+
+.piece2{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 200px solid rgb(45, 45, 75);
+    position:  relative;
+    left: 400px;
+    top: 0px;
+    z-index: 2;
+    
+}
+
+.piece3{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 200px solid rgb(94, 94, 165);
+    position:relative;
+    left: 220px;
+    top: 0px;
+    z-index: 1;
+}
+
+.piece4{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 200px solid rgb(94, 94, 165);
+    position: relative;
+    left: 190px;
+    top: 0px;
+    z-index: 1;
+}
+
+.piece5{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 200px solid rgb(45, 45, 75);
+    position:  relative;
+    left:200px;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.piece6{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-radius: 50%;
+    background: rgb(189, 151, 15);
+}
+
+
+.piece1{
+    width: 750px;
+    height: 20px;
+    background:rgb(114, 74, 9);
+    margin-right: 4px;
+    max-width: 60em;
+    display:flex;
+    justify-content: space-around;
+    color:antiquewhite;
+} 
+
+
+
+
+

@@ -1,0 +1,29 @@
+.gridblock{
+    display: grid;
+    grid-template-columns: 'username username username'
+    'password password number number'
+    'checkbox checkbox checkbox checkbox';
+    gap: 5px;
+    padding: 2px;
+
+
+
+}
+.itemA{
+    grid-area: menu;
+}
+.itemB{
+    grid-area: main;
+}
+.itemC{
+    grid-area: drop;
+}
+.itemD{
+    grid-area: main;
+}
+.itemE{
+    grid-area:sidebar;
+}
+.itemF{
+    grid-area: footer;
+}

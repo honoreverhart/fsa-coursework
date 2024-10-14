@@ -1,0 +1,14 @@
+h2:hover{
+    background-color:chocolate;
+}
+li:nth-child(even) {
+    color: purple;
+  }
+
+  section{
+    height:100;
+    } 
+    
+    heading{
+    height: calc(100% - 15px);
+    }   
