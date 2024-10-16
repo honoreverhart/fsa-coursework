@@ -8,15 +8,28 @@ h1{
 .Art{
     display: flex;
     background-color: rgb(138, 204, 206);
+    width: 1000px;
 
 }
 
 .Art > div{
-    margin: 10px;
-    padding: 5px;
+    margin: 0px auto;
+    padding: 0px auto;
     font-size: 30px;
-
+    
+    
 }
+body {
+    margin: 0;
+    width: 1000px;
+    height: 100px;
+}
+
+div {
+    width: auto;
+    
+}
+
 
 
 .piece2{
@@ -26,7 +39,7 @@ h1{
     border-right: 50px solid transparent;
     border-bottom: 200px solid rgb(45, 45, 75);
     position:  relative;
-    left: 400px;
+    left: 0px;
     top: 0px;
     z-index: 2;
     
@@ -39,7 +52,7 @@ h1{
     border-right: 50px solid transparent;
     border-bottom: 200px solid rgb(94, 94, 165);
     position:relative;
-    left: 220px;
+    left: 0px;
     top: 0px;
     z-index: 1;
 }
@@ -51,7 +64,7 @@ h1{
     border-right: 50px solid transparent;
     border-bottom: 200px solid rgb(94, 94, 165);
     position: relative;
-    left: 190px;
+    left: -350px;
     top: 0px;
     z-index: 1;
 }
@@ -63,7 +76,7 @@ h1{
     border-right: 50px solid transparent;
     border-bottom: 200px solid rgb(45, 45, 75);
     position:  relative;
-    left:200px;
+    left:-450px;
     top: 0px;
     z-index: 1;
     
@@ -75,19 +88,10 @@ h1{
     border: 1px;
     border-radius: 50%;
     background: rgb(189, 151, 15);
+    position: relative;
+    left: -700px;
 }
 
-
-.piece1{
-    width: 750px;
-    height: 20px;
-    background:rgb(114, 74, 9);
-    margin-right: 4px;
-    max-width: 60em;
-    display:flex;
-    justify-content: space-around;
-    color:antiquewhite;
-} 
 
 
 
