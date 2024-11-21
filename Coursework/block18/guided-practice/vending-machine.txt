@@ -1,0 +1,20 @@
+
+
+
+vending machine:
+
+Quantity of Items selected is Quantity given
+Expect when custumer selects 2 of an item, they are given two items
+
+
+Give Change
+expect when user pays to return the difference between the amount given and the cost of the item
+
+Currency Type
+when costumer inserts currency, make sure type is USD otherwise spit it out
+
+Ensure money is one way
+unless "give refund" is true, money can only be inserted
+
+Ensure product selected is product given
+does product.code = dispensed item.code?

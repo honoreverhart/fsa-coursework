@@ -1,0 +1,41 @@
+Unit Tests:
+
+1. A function called "multiplication" that returns the product of the two input numbers.
+Example:
+    function multiplication(){
+        input = (10 * 5)
+        return input
+    }
+
+    console.log(multiplication)
+
+    Expect input to take in only two inputs
+    Expect any two input numbers to multiply correctly
+    Expect input to multiply decimals correctly
+    Expect input to multiply negative numbers correctly
+
+2. A function called "concatOdds" takes two arrays of integers as arguments. 
+It should return a single array that only contains the odd numbers, in ascending order, from both of the arrays.
+
+    example conactOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1])
+    
+    
+    expect 'for loop' to read through all numbers in both arrays
+    expect if statement to seperate the even and odd numbers
+    expect if statment to add all odd numbers into a new array
+    expect negative numbers to still be sorted into odds and evens
+    expect fractions to not count as an input
+
+
+Functional Test:
+
+A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. 
+They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest. 
+
+    The shopping cart should allow logged-in users to log in before shopping
+    The shopping cart should allow customer to shop as a guest
+    The shopping cart should allow the costumer to make an account if they dont have one
+    The shopping cart should add an unlimited amount of items to cart
+    The shopping cart should add the cost of each item, including tax
+    The shopping cart should add up the cost of all items, including tax, and present a total
+    The shopping cart should only save whats in the cart if the customer is signed in
