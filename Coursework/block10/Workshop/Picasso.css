@@ -2,15 +2,22 @@
 
 h1{
     font-family: cursive;
+    text-align: center;
 }
 
 
 .Art{
     display: flex;
-    background-color: rgb(138, 204, 206);
-    width: 1000px;
-
+    
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color:darkcyan;
+    }
+  }
+
+  
 
 .Art > div{
     margin: 0px auto;
@@ -42,6 +49,7 @@ div {
     left: 0px;
     top: 0px;
     z-index: 2;
+    
     
 }
 
